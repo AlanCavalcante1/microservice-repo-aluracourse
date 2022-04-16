@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: docker
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/fornecedor
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: POSTGRESQL
